@@ -1,0 +1,9 @@
+config,rank,eval_loss,perplexity,trainable_params,total_params,output_dir
+attention_only,2,2.289275169,9.867782617,1146880,1804610560,/content/lora_rank_sensitivity_runs/attention_only_r2
+attention_only,4,2.278219461,9.759288141,2293760,1805757440,/content/lora_rank_sensitivity_runs/attention_only_r4
+attention_only,8,2.353796482,10.52545366,4587520,1808051200,/content/lora_rank_sensitivity_runs/attention_only_r8
+attention_only,16,2.265878201,9.639586375,9175040,1812638720,/content/lora_rank_sensitivity_runs/attention_only_r16
+ffn_only,2,2.2806499,9.783036344,1892352,1805356032,/content/lora_rank_sensitivity_runs/ffn_only_r2
+ffn_only,4,2.273412943,9.712492494,3784704,1807248384,/content/lora_rank_sensitivity_runs/ffn_only_r4
+ffn_only,8,2.267391682,9.654186753,7569408,1811033088,/content/lora_rank_sensitivity_runs/ffn_only_r8
+ffn_only,16,2.263186216,9.613671658,15138816,1818602496,/content/lora_rank_sensitivity_runs/ffn_only_r16
